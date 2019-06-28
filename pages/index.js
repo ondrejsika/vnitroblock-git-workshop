@@ -1,6 +1,8 @@
+import Hello from '../compponents/Hello';
+
 function Home() {
   return <div>
-      Welcome to my React Workshop!
+      <Hello name='Zuzko' />
       <br />
       <a href='/about-me'>About me</a>
     </div>;
